@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html"><img src="images/logo.png" alt="Aliennation" /></a>
+    <input type="checkbox" id="burger-toggle" />
+    <label for="burger-toggle" class="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </label>
+    <ul>
+      <li><a href="index.html">Intro</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="overview.html">Theorien</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="page">
+    <div class="form-page">
+      <div class="form-box">
+        <h2>Zugang</h2>
+        <p class="sub">Bitte melden Sie sich mit Ihrem Konto an.</p>
+        <form action="overview.html" method="get">
+          <div class="form-row">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-row">
+            <label for="password">Passwort</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <hr />
+          <button type="submit" class="button full">Einloggen</button>
+          <div class="form-footer">
+            <a href="password-forgot.html">Passwort vergessen?</a>
+            <a href="register.html">Noch kein Konto?</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <a href="index.html"><img src="images/logo.png" alt="Aliennation" /></a>
+      <p>Aliennation</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Theorien</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html"><img src="images/logo.png" alt="Aliennation" /></a>
+    <input type="checkbox" id="burger-toggle" />
+    <label for="burger-toggle" class="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </label>
+    <ul>
+      <li><a href="index.html">Intro</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="overview.html">Theorien</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="page">
+    <section class="page-hero">
+      <div class="hero-bg overview"></div>
+      <div class="hero-content">
+        <h1>Alle Theorien. Alle Beweise.</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <div class="theories">
+
+          <div class="theory" onclick="toggleCard(this)">
+            <div class="theory-inner">
+              <span class="tag">Ägypten</span>
+              <h3>Haben Ausserirdische die Pyramiden gebaut?</h3>
+              <p>Ein einzelner Steinblock kann bis zu 70 Tonnen wiegen. Wie war das damals möglich?</p>
+              <div class="theory-expand">
+                <div class="expand-body">
+                  <p>Über 2,5 Millionen Blöcke, viele davon millimetergenau platziert, manche bis zu 70 Tonnen schwer. Keine Maschinen, keine moderne Technik. Die offizielle Erklärung reicht für viele nicht aus.</p>
+                  <p>Zwei Kulturen auf verschiedenen Kontinenten bauten ähnliche Strukturen, ohne direkten Kontakt zueinander. Was, wenn dieses Wissen von ausserhalb kam?</p>
+                </div>
+              </div>
+              <div class="theory-footer">
+                <button>Details</button>
+                <a href="pyramide-detail.html" onclick="event.stopPropagation()">Vollständig lesen</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="theory" onclick="toggleCard(this)">
+            <div class="theory-inner">
+              <span class="tag">USA</span>
+              <h3>Area 51: Was wird wirklich verborgen?</h3>
+              <p>Jahrzehnte der Verleugnung, dann eine teilweise Bestätigung. Aber die grossen Fragen bleiben offen.</p>
+              <div class="theory-expand">
+                <div class="expand-body">
+                  <p>Seit den 1950er-Jahren existiert in der Wüste Nevadas ein streng gesperrtes Militärgelände. Jahrzehntelang leugnete die US-Regierung seine Existenz vollständig.</p>
+                  <p>Ehemalige Mitarbeiter berichten von Dingen, für die es keine konventionelle Erklärung gibt. Was wirklich hinter den gesicherten Zäunen liegt, ist bis heute nicht vollständig bekannt.</p>
+                </div>
+              </div>
+              <div class="theory-footer">
+                <button>Details</button>
+                <a href="area51-detail.html" onclick="event.stopPropagation()">Vollständig lesen</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="theory" onclick="toggleCard(this)">
+            <div class="theory-inner">
+              <span class="tag">Maya</span>
+              <h3>Der Maya-Kalender und das kosmische Wissen</h3>
+              <p>Ein Volk ohne Teleskope, das den Venus-Zyklus auf 8 Dezimalstellen genau kannte. Wie?</p>
+              <div class="theory-expand">
+                <div class="expand-body">
+                  <p>Der Maya-Kalender ist präziser als der gregorianische Kalender. Die Mayans berechneten den Venus-Zyklus mit einer Genauigkeit, die selbst moderne Astronomen in Staunen versetzt.</p>
+                  <p>Woher kam dieses Wissen? Die Maya selbst sagten, ihre Götter hätten es ihnen gegeben, Wesen, die vom Himmel kamen.</p>
+                </div>
+              </div>
+              <div class="theory-footer">
+                <button>Details</button>
+                <a class="hidden" href="#">Vollständig lesen</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="theory" onclick="toggleCard(this)">
+            <div class="theory-inner">
+              <span class="tag">Raumfahrt</span>
+              <h3>Was haben die Astronauten auf dem Mond wirklich gesehen?</h3>
+              <p>Interne NASA-Dokumente und Aussagen ehemaliger Mitarbeiter deuten auf unveröffentlichte Begegnungen hin.</p>
+              <div class="theory-expand">
+                <div class="expand-body">
+                  <p>Mehrere Apollo-Astronauten sollen auf dem Mond Dinge gesehen haben, die in keinen offiziellen Berichten auftauchen. Interne Funkgespräche wurden angeblich gefiltert.</p>
+                  <p>Ehemalige NASA-Mitarbeiter berichten von Anweisungen, bestimmte Beobachtungen nicht zu dokumentieren. Was wurde verborgen?</p>
+                </div>
+              </div>
+              <div class="theory-footer">
+                <button>Details</button>
+                <a class="hidden" href="#">Vollständig lesen</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="theory" onclick="toggleCard(this)">
+            <div class="theory-inner">
+              <span class="tag">Biologie</span>
+              <h3>Der fehlende Evolutionssprung im menschlichen Genom</h3>
+              <p>Wissenschaftler rätseln über eine genetische Brücke, die in keiner bekannten Spezies eine Entsprechung hat.</p>
+              <div class="theory-expand">
+                <div class="expand-body">
+                  <p>Zwischen dem Genom des Schimpansen und dem des Menschen existiert eine genetische Lücke, die die Evolutionstheorie nur schwer erklärt.</p>
+                  <p>Manche Wissenschaftler sprechen von einer gezielten Modifikation. Wer oder was könnte das Genom der frühen Menschen verändert haben?</p>
+                </div>
+              </div>
+              <div class="theory-footer">
+                <button>Details</button>
+                <a class="hidden" href="#">Vollständig lesen</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="theory" onclick="toggleCard(this)">
+            <div class="theory-inner">
+              <span class="tag">Astronomie</span>
+              <h3>Die Orion-Korrelation: Zufall oder Absicht?</h3>
+              <p>Die drei Grossen Pyramiden spiegeln den Gürtel des Orion mit einer Präzision wider, die Zufall ausschliesst.</p>
+              <div class="theory-expand">
+                <div class="expand-body">
+                  <p>Die drei Pyramiden von Gizeh entsprechen nicht nur der Position der drei Orion-Sterne, ihre relative Grösse stimmt sogar mit der Helligkeit der Sterne überein.</p>
+                  <p>Die Wahrscheinlichkeit, dass dies Zufall ist, wird von Mathematikern auf annähernd null geschätzt. Jemand hat dieses Muster absichtlich erschaffen.</p>
+                </div>
+              </div>
+              <div class="theory-footer">
+                <button>Details</button>
+                <a class="hidden" href="#">Vollständig lesen</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="index.html"><img src="images/logo.png" alt="Aliennation" /></a>
+      <p>Aliennation</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
