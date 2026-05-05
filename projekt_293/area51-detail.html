@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Area 51</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html"><img src="images/logo.png" alt="Aliennation" /></a>
+    <input type="checkbox" id="burger-toggle" />
+    <label for="burger-toggle" class="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </label>
+    <ul>
+      <li><a href="index.html">Intro</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="overview.html">Theorien</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="page">
+    <section class="area51-hero">
+      <picture>
+        <source srcset="images/movie.png" media="(min-width: 768px)" />
+        <img src="images/movie.png" alt="Area 51 – Geheimes Militärgelände in der Wüste Nevadas" />
+      </picture>
+      <div class="area51-hero-overlay">
+        <span class="label">USA</span>
+        <h1>Area 51</h1>
+        <p>Was wird wirklich verborgen?</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="inner">
+        <a class="back" href="overview.html"> Zurück zu den Theorien</a>
+        <figure class="video-figure">
+          <video controls width="100%" poster="images/movie.png">
+            <source src="videos/area51.webm" type="video/webm" />
+            <source src="videos/area51.mp4" type="video/mp4" />
+            Ihr Browser unterstützt kein Video.
+          </video>
+          <figcaption>Area 51, Nevada</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <footer>
+      <a href="index.html"><img src="images/logo.png" alt="Aliennation" /></a>
+      <p>Aliennation</p>
+    </footer>
+  </div>
+</body>
+</html>
